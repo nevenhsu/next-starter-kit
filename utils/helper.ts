@@ -1,8 +1,8 @@
 import _ from 'lodash'
 import { format } from 'date-fns'
 import { zonedTimeToUtc } from 'date-fns-tz'
-import Counter from 'lib/counter'
-import colors from 'lib/colors'
+import Counter from 'utils/counter'
+import colors from 'utils/colors'
 import { env } from 'utils/env'
 
 export type TRetryOption<T = any> = {

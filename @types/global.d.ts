@@ -5,6 +5,7 @@ declare global {
       NODE_ENV: 'production' | 'development'
       TIMEZONE: string
       URL: string
+      NEXT_PUBLIC_GOOGLE_ANALYTICS: string
       // ssh
       SSH_USERNAME: string
       SSH_KEY_FILEPATH: string
