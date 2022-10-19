@@ -5,8 +5,6 @@ const env = {
   timezone: process.env.TIMEZONE,
   isProd: process.env.NODE_ENV === 'production',
   isDev: process.env.NODE_ENV === 'development',
-  url: process.env.URL,
-  dbDirect: toBool(process.env.DB_DIRECT),
 }
 
 // for browser by prefixing with NEXT_PUBLIC_
